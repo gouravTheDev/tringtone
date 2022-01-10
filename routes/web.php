@@ -25,6 +25,10 @@ Route::get('/about-us', function () {
     return view('aboutus');
 });
 
+Route::get('/be-partner', function () {
+    return view('bePartner');
+});
+
 Route::get('/warranty', function () {
     return view('warranty');
 });
