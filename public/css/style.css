@@ -2597,7 +2597,7 @@ nav.navbar ul.nav .dropdown-menu.second-level .dropdown-menu {margin-top: 0}
 /* navigation left sidebar */
 header .menu-wrap .widget {margin-bottom: 30px; display: inline-block; width: 100%}
 .nav.navbar-left-sidebar {display: block; transition: all 0s ease-in-out 0s; -webkit-transition: all 0s ease-in-out 0s; -moz-transition: all 0s ease-in-out 0s; -ms-transition: all 0s ease-in-out 0s; -o-transition: all 0s ease-in-out 0s; overflow-y: auto;}
-.left-nav-on .sidebar-part2 .sidebar-middle .sidebar-middle-menu .nav {overflow-x: hidden; display: block;}
+.left-nav-on .sidebar-part2 .sidebar-middle .sidebar-middle-menu .nav {display: block;}
 .nav.navbar-left-sidebar li {display: inline-block; width: 100%; padding: 0 45px;}
 .nav.navbar-left-sidebar li a, nav.navbar.bootsnav.navbar-left-sidebar ul.nav > li > a {font-size: 11px; text-transform: uppercase; color: #939393; background: transparent !important; font-weight: 600; border-bottom: 1px solid #e5e5e5 !important; padding:15px 0; margin:0;}
 nav.navbar.sidebar-nav .navbar-left-sidebar li.dropdown .third-level a > [class^="ti-"], nav.navbar.sidebar-nav .navbar-left-sidebar li.dropdown .third-level a > [class*=" ti-"] {margin-right: 5px;}
@@ -2687,7 +2687,7 @@ header .sidebar-part2 nav.navbar.bootsnav ul li ul li.dropdown {border-left: 0;}
 
 .bottom-menu-icon a {font-size: 24px; width: 23px; height: 18px; display: inline-block; position: relative;}
 header .sidebar-part2 nav.navbar.bootsnav ul.second-level li.active > a, header .sidebar-part2 nav.navbar.bootsnav ul.second-level li.active ul li.active  > a {color: var(--base-color)}
-.sidebar-part2 .navbar-collapse.collapse {overflow-y: auto !important;}
+.sidebar-part2 .navbar-collapse.collapse {}
 
 .nav-icon span {display: block; position: absolute; height: 2px; width: 23px; background: #232323; border-radius: 0; opacity: 1; left: 0; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out;}
 .nav-icon:hover span, .nav-icon.active span {background-color: red}

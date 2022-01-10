@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('revolution/css/navigation.css') }}">
     <!-- style sheets -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/custom.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('css/responsive.css') }}" />
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -44,14 +45,22 @@
                             <div id="navbar-menu" class="collapse navbar-collapse no-padding">
                                 <ul class="nav navbar-nav margin-80px-bottom">
                                     <li>
-                                        <a href="#" title="Home">Home</a>
+                                        <a href="/" title="Home">Home</a>
                                     </li>
 
                                     <li>
-                                        <a href="#" title="Home">Warranty</a>
+                                        <a href="warranty" title="Warranty">Warranty</a>
                                     </li>
 
-                                    <li class="dropdown">
+                                    <li>
+                                        <a href="about-us" title="About Us">About Us</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="prouduct-types" title="Products">Prouducts</a>
+                                    </li>
+
+                                    <!-- <li class="dropdown">
                                         <a href="#" title="Home" data-bs-toggle="dropdown">Products<i class="fas fa-angle-right pull-right"></i></a>
                                         <ul class="dropdown-menu second-level">
                                             <li class="dropdown">
@@ -89,10 +98,14 @@
                                                 </ul>
                                             </li>
                                         </ul>
+                                    </li> -->
+
+                                    <li>
+                                        <a href="contact" title="Contact">Contact Us</a>
                                     </li>
 
                                     <li>
-                                        <a href="#" title="Home">Contact Us</a>
+                                        <a href="be-partner" title="Be partner">Be our Partner</a>
                                     </li>
 
                                     <li>

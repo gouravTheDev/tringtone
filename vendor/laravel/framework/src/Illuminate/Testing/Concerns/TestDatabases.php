@@ -46,7 +46,7 @@ trait TestDatabases
             ];
 
             if (Arr::hasAny($uses, $databaseTraits)) {
-                if (! ParallelTesting::option('without_databases')) {
+                if (!ParallelTesting::option('without_databases')) {
                     $this->whenNotUsingInMemoryDatabase(function ($database) use ($uses) {
                         [$testDatabase, $created] = $this->ensureTestDatabaseExists($database);
 
@@ -98,7 +98,7 @@ trait TestDatabases
      */
     protected function ensureSchemaIsUpToDate()
     {
-        if (! static::$schemaIsUpToDate) {
+        if (!static::$schemaIsUpToDate) {
             Artisan::call('migrate');
 
             static::$schemaIsUpToDate = true;
@@ -156,12 +156,12 @@ trait TestDatabases
         if ($url) {
             config()->set(
                 "database.connections.{$default}.url",
-                preg_replace('/^(.*)(\/[\w-]*)(\??.*)$/', "$1/{$database}$3", $url),
+                preg_replace('/^(.*)(\/[\w-]*)(\??.*)$/', "$1/{$database}$3", $url)
             );
         } else {
             config()->set(
                 "database.connections.{$default}.database",
-                $database,
+                $database
             );
         }
     }
